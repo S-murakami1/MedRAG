@@ -13,14 +13,14 @@ cd MedRAG
 poetry install
 ```
 
-### Setting Environment Variables
+### Setting Environment Variables (for Windows)
 
 ```bash
 # OpenAI API configuration
-export OPENAI_API_KEY="your_openai_api_key_here"
+$env:OPENAI_API_KEY="your_openai_api_key_here"
 
 # Tavily API configuration (for web search)
-export TAVILY_API_KEY="your_tavily_api_key_here"
+$env:TAVILY_API_KEY="your_tavily_api_key_here"
 ```
 ## Run
 
