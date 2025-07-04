@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "MedRAG"
+version = "0.1.0"
+description = ""
+authors = ["S-murakami1 <murakami3995@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.62"
+httpx = "^0.28.1"
+langchain = "^0.3.14"
+langchain-community = "^0.3.14"
+langchain-groq = "^0.2.3"
+google-search-results = "^2.4.2"
+arxiv = "^2.1.3"
+grandalf = "^0.8"
+langchain-openai = "^0.3.0"
+xmltodict = "^0.14.2"
+pymupdf = "^1.25.1"
+loguru = "^0.7.3"
+streamlit = "^1.44.1"
+fpdf2 = "^2.8.2"
+spire = "^0.4.2"
+spire-doc = "^13.3.8"
+pdfkit = "^1.0.0"
+markdown = "^3.7"
+pypdf2 = "^3.0.1"
+openai = "^1.72.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

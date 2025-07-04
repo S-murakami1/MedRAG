@@ -1,0 +1,1 @@
+"answerer": "Answer the following medical question accurately and precisely in 2-3 sentences max.Provide URL citations to credible sources to substantiate every medical fact stated in your answer.Return a json where the key 'response' has the value of the text of the answer and the field 'citations' has the value of a list of citation URLs."
