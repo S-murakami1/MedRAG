@@ -1,5 +1,5 @@
 # MedRAG
-MedRAG is a Retrieval-Augmented Generation (RAG) system that generates comprehensive answers to medical questions by leveraging ArXiv, PubMed, and web search.
+MedRAG is a Retrieval-Augmented Generation (RAG) system that generates comprehensive answers to medical questions by leveraging ArXiv, PubMed, and web search. It can also display references.
 
 ## Environment Setup
 
