@@ -7,7 +7,7 @@ from loguru import logger
 import time
 
 # OpenAI APIキー
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_text_from_pdf(file_path):
     text = ""
