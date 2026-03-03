@@ -27,3 +27,26 @@ $env:TAVILY_API_KEY="your_tavily_api_key_here"
 ```bash
 # Run the Python script within the Poetry environment
 poetry run python medrag/eng.py -q "Enter your question here"
+```
+
+## Evaluation
+
+You can evaluate the generated report PDFs in `./output/pdf` using different models.  
+(Filenames are expected to follow the format: `number_question_type.pdf`)
+
+### Environment variables for evaluation (Windows)
+
+### GPT
+```bash
+$env:OPENAI_API_KEY="your_openai_api_key_here"
+```
+
+### Claude
+```bash
+$env:ANTHROPIC_API_KEY="your_anthropic_api_key_here"
+```
+
+### Gemini
+```bash
+$env:GEMINI_API_KEY="your_gemini_api_key_here"
+```
